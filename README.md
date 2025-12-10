@@ -148,4 +148,3 @@ To test your models interactively on new images:
 ## **Author**
 
 *   **TRIBAK Mohamed**
-*   **Personal Project**
