@@ -6,6 +6,7 @@ venv/
 
 # MobileNet/ResNet/CNN data and models
 dataset/
+data/
 features/
 models/
 results/
