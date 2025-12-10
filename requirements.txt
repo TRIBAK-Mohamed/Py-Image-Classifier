@@ -1,0 +1,11 @@
+tensorflow
+scikit-learn
+opencv-python-headless
+numpy
+Pillow
+matplotlib
+seaborn
+tqdm
+albumentations
+joblib
+streamlit
