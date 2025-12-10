@@ -14,27 +14,31 @@ The project also integrates **Data Augmentation** tools to enhance model robustn
 
 Py-Image-Classifier/
 │
-├── dataset/                # <-- Place your original images here
-│ 
-├── features/               # (Automatically created) Contains processed data
-│ ├── augmented/
-│ └── ...X_train.npy
+├── dataset/                 # Place your original images here
 │
-├── models/                  # (Automatically created) Contains trained models (.joblib)
+├── features/                # Automatically created - stores processed features
+│   ├── X_train.npy
+│   ├── X_test.npy
+│   └── y.npy
 │
-├── results/                 # (Automatically created) Contains reports and charts
-│ ├── report...json
-│ └── confusion_matrix_...png
+├── augmented/               # Automatically created - stores augmented images
 │
-├── preprocess_images.py        # Script 1
-├── extract_features.py         # Script 2
-├── train_classifiers.py        # Script 3
-├── train_cnn_from_scratch.py   # Script 3 (Alternative)
-├── evaluate_results.py         # Script 4
-├── app.py                      # Streamlit App
+├── models/                  # Automatically created - trained ML models (.joblib)
 │
-├── README.md                 
-└── requirements.txt            # Dependencies file
+├── results/                 # Automatically created - reports and charts
+│   ├── report_....json
+│   └── confusion_matrix_....png
+│
+├── preprocess_images.py     # Script 1
+├── extract_features.py      # Script 2
+├── train_classifiers.py     # Script 3
+├── train_cnn_from_scratch.py# Script 3 (Alternative)
+├── evaluate_results.py      # Script 4
+│
+├── app.py                   # Streamlit App
+│
+├── README.md
+└── requirements.txt         # Dependencies file
 
 
 ## **Prerequisites**
