@@ -1,6 +1,6 @@
 # Py-Image-Classifier
 
-**Py-Image-Classifier** is a personal Computer Vision project applied to predictive maintenance in an industrial setting.
+**Py-Image-Classifier** is a  Computer Vision project applied to predictive maintenance in an industrial setting.
 
 It is designed to **automatically detect and classify defects in electric motors** (overheating, wear, etc.) using images (specifically thermal images), enabling failure anticipation.
 
